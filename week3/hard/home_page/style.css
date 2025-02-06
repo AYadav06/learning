@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sincopa Nina';
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #011627;
+    padding: 10vh 15vh;
+}
+
+h1{
+    margin-bottom: 40px;
+    color: #DDE0E2;
+ text-align: center;
+ font-size: 3.5em;
+}
+
+#element{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin:20px auto;
+    width:40%;
+    gap:4px;
+}
+
+#addNew{
+    border-radius: 20px;
+    background-color: #043d6c;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #DDE0E2;
+    width: 90%;
+    border: 0px solid;
+}
+
+#inp{
+    border-radius: 20px;
+    background-color: #043d6c;
+    border: 0px solid;
+    font-size: 1.4em;
+    color: #DDE0E2;
+    font-weight: 500;
+    width: 90%;
+
+}
+
+::placeholder{
+    text-align: center;
+    color: #DDE0E2;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.container{
+    margin-top: 50px;
+    width: 100%;
+    color: #DDE0E2;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.headText{
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 1.5em;;
+    text-align: center;
+    background-color: #043d6c;
+
+}
+
+#toDolist{
+    border-radius: 20px;
+   width: 90%;
+}
+
+#inProgress{
+    border-radius: 20px;
+   width: 90%;
+}
+
+#done{
+    border-radius: 20px;
+   width: 90%;
+}

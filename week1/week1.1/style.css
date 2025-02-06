@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(21, 20, 20);  */
+  }
+/* Q1 and Q2  */
+/* #div{ */
+  /* width: 1200px;
+  margin: 0 auto; */
+ /* display: flex;
+ align-items: center;
+ justify-content: center; */
+  
+/* } */
+
+/* #container{  
+  height: 500px; 
+    display:flex;
+    /* align-items: center;
+    justify-content: center; 
+    
+    background-color: royalblue;
+}END OF Q1 AND Q2 */
+
+/* Q3 FLEX QUESTION */
+/* .div{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+  justify-content:center;
+}
+#left{
+    height: 100px;
+    width:25%;
+ background-color:red;
+ display: flex;
+ align-items: center;
+justify-content:center;
+}
+#right{
+height: 100px;
+width:50%;
+background-color:blue;
+display: flex;
+align-items: center;
+justify-content:center;
+} */
+
+
+
+
+
+/* Another Approach of grid and flex problem
+flex problem */
+/* .div{
+width:1200px;
+display: flex;
+margin: 0 auto;
+}
+#left{
+  flex-grow: 1;
+background-color:blue;
+}
+#right{
+  flex-grow: 2;
+background-color:red;
+} */
+
+/* using grid  */
+/* .div{
+  width:1200px;
+  margin: 0 auto;
+display: grid;  
+grid-template-columns: 1fr 2fr;
+gap:10px
+}
+  #left{ 
+  background-color:blue;
+  }
+  #right{
+  background-color:red;
+  }  */
+
+
+  .container{
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    gap:10px;
+  }
+  #left{
+    background-color:blue;
+  }
+.horizontal-center {
+  /* margin:0 auto; */
+  display:flex;
+  justify-content: center;
+
+}
+  #right{
+    background-color:red;
+  }
+  #right #content{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+  }

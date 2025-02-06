@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Sincopa Nina'; */
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #011627;
+    color: #DDE0E2;
+    padding: 15vh 15vh;
+    /* background-color: #043d6c; input field color */
+}
+
+main{
+    padding: 5vh 10vh 10vh 10vh;
+    height: 50%;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #043d6c;
+    border-radius: 40px;
+    /* position:absolute; */
+}
+h1{
+    padding: 1vh;
+    /* text-align: center; */
+    font-size: 3em;
+}
+form{
+    font-size: 1.2em;
+    padding-top:2vh;
+}
+form .field-text{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+       font-size: 1em;
+    color: #DDE0E2;
+    background-color: #043d6c;
+    border:1px  solid white;
+    padding:2vh;
+    height: 5vh;
+    width: 100%;
+}
+::placeholder{
+    font-size: 0.9em;
+}
+
+#signupBtn{
+    margin-top: 2vh;
+    background-color: #043d6c;
+    color: #DDE0E2;
+    font-size: 1em;
+    width: 30%;
+    border: 1px solid white;
+  border-radius: 20px;
+  padding: 6px;
+}
+#signupBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+label{
+    padding:1vh;
+}
+
+#login{
+    padding:1vh;
+    margin-top: 2vh;
+
+}
+#login a{
+    text-decoration: none;
+    color: #9ce8f2;
+}
+
+#login a:hover{
+    padding:1vh;
+    border-radius: 20px;
+      background-color: white;
+    color: black;
+}
